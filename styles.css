@@ -1,0 +1,83 @@
+:root{
+    --cor-preto: #0000;
+    --cor-branco: #f1eeee;
+    --cor-texto: #464646;
+    --cor-horario: #333333;
+
+    --fonte-geral: font-family: "Montserrat", sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    background-color: var(--cor-branco);
+}
+
+.cabecalho__horario {
+    font-weight: bold;
+    color: var(--cor-horario);
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--fonte-geral);
+}
+
+.cabecalho__icones {
+    display: flex;
+    align-items: center;
+    gap: 16px; 
+}
+
+.cabecalho__icones img {
+    height: auto;
+}
+
+.cabecalho__icones {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+fontes
+
+Montserrat
+
+    font-family: 'Inter', sans-serif;
+
+
+
+
+   */
